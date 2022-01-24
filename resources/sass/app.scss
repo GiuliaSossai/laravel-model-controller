@@ -3,6 +3,7 @@
 
 // Variables
 @import 'variables';
+@import 'partials/generals';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -10,4 +11,3 @@
 
 @import 'partials/content';
 @import 'partials/header';
-@import 'partials/footer';

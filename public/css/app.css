@@ -1,4 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
 /*!
  * Bootstrap v4.6.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10019,15 +10029,14 @@ h3 {
     border-color: #dee2e6;
   }
 }
+main {
+  overflow: hidden;
+}
 main .movie-box {
   border: 1px solid black;
 }
 
 header {
   background-color: #323131;
-}
-
-footer {
-  height: 100px;
-  background-color: #323131;
+  height: 80px;
 }

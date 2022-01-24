@@ -1,22 +1,5 @@
-// main {
-//     .movie-row{
-//        display: flex;
-//        flex-wrap: wrap;
-//        .movie-box {
-//             width: calc(100% / 5);
-//             border: 1rem solid #1C1C1C;
-//             margin-bottom: 1rem;
-//             padding-left: 10px;
-//             height: 300px;
-//             }
-//             p {
-//                 padding-top: 8px;
-//         }
-//     }
-// }  
-
-
 main {
+    overflow: hidden;
     .movie-box {
         border: 1px solid black;
     }
