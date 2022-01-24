@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,3 +15,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'PageController@index')->name('home');
+
+Route::get('/chi_siamo', function(){
+    return view('about');
+})->name('about');
+
+Route::get('/film', function(){
+    return view('movies');
+})->name('movies');
+
+Route::get('/contatti', function(){
+    return view('contacts');
+})->name('contacts');

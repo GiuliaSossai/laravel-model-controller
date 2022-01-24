@@ -10022,3 +10022,12 @@ h3 {
 main .movie-box {
   border: 1px solid black;
 }
+
+header {
+  background-color: #323131;
+}
+
+footer {
+  height: 100px;
+  background-color: #323131;
+}
